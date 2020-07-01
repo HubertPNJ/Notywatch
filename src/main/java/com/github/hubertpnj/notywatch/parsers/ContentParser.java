@@ -1,4 +1,6 @@
 package com.github.hubertpnj.notywatch.parsers;
 
-public interface ContentParser<C> extends BaseContentParser<String, C> {
+import java.util.List;
+
+public interface ContentParser<C> extends BaseContentParser<List<String>, C> {
 }
